@@ -1,6 +1,12 @@
 .nav-link:hover{
     background-color: yellow;
 }
-.nav-link:active{
-    background-color: yellow !important;
+ .nav-item a.active{
+    background-color: yellow;
+}
+
+.home{
+    background-image: url("./images/slideshow/interior-wall-mockup-with-sofa-cabinet-living-room-with-empty-white-wall-background-3d-rendering.jpg");
+    height: 100vh;
+    background-size: cover;
 }
